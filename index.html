@@ -13,6 +13,8 @@
       margin: 0;
       padding: 0;
       height: 100%;
+      display: flex;
+      flex-direction: column;
       background-color: #f4f4f4;
     }
 
@@ -57,6 +59,11 @@
     }
 
     .contact {
+      flex: 1; /* Makes this section stretch to fill remaining space */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       text-align: center;
       padding: 50px 10%;
       box-sizing: border-box;
@@ -144,7 +151,7 @@
 
   <section class="contact">
     <h2>Contact Me</h2>
-      <p>Have any questions or want to work together? Feel free to contact me through any of the contacts provided below! </p>
+    <p>Have any questions or want to work together? Feel free to contact me through any of the contacts provided below!</p>
     <div class="contact-gallery">
       <a href="mailto:olivia.yip7@gmail.com" target="_blank">
         <img src="gmail.png" alt="Gmail">
@@ -165,4 +172,3 @@
   </footer>
 </body>
 </html>
-
