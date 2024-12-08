@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Olivia Yip's Portfolio - Contact Me</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    html, body {
+      font-family: 'Be Vietnam', sans-serif;
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #a9a496;
+      color: white;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      padding: 30px;
+      margin: 0;
+    }
+
+    nav {
+      background-color: #ece3dd;
+      padding: 8px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      color: #a1a0a0;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+
+    nav ul li a:hover,
+    nav ul li a.active {
+      color: #3d4e5b;
+      font-weight: bold;
+    }
+
+    .contact {
+      text-align: center;
+      padding: 50px 10%;
+      box-sizing: border-box;
+    }
+
+    .contact h2 {
+      font-size: 2.5rem;
+      color: #3d4e5b;
+      margin-bottom: 20px;
+    }
+
+    .contact-gallery {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .contact-gallery a {
+      display: inline-block;
+      text-decoration: none;
+    }
+
+    .contact-gallery img {
+      width: 100px;
+      height: 100px;
+      border: 2px solid #ece3dd;
+      border-radius: 50%;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .contact-gallery img:hover {
+      transform: scale(1.1);
+      box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    footer {
+      background-color: #a9a496;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      nav ul {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .contact {
+        padding: 20px;
+      }
+
+      .contact-gallery {
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      .contact-gallery img {
+        width: 80px;
+        height: 80px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="https://oliviayiip.github.io/Yip_Olivia_a3/" style="text-decoration: none; color: white;">
+      <h1>Olivia Yip's Portfolio</h1>
+    </a>
+    <nav>
+      <ul>
+        <li><a href="https://oliviayiip.github.io/about-me-page/">About Me</a></li>
+        <li><a href="https://oliviayiip.github.io/resume-page/">Resume</a></li>
+        <li><a href="https://oliviayiip.github.io/projects-page/">Projects</a></li>
+        <li><a href="https://oliviayiip.github.io/contact-me-page/" class="active">Contact Me</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-gallery">
+      <a href="mailto:olivia.yip7@gmail.com" target="_blank">
+        <img src="email-icon.png" alt="Email">
+      </a>
+      <a href="https://www.instagram.com/oliviayiip/" target="_blank">
+        <img src="instagram-icon.png" alt="Instagram">
+      </a>
+      <a href="https://www.linkedin.com/in/oliviayiip/" target="_blank">
+        <img src="linkedin-icon.png" alt="LinkedIn">
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <p>Let's Connect!</p>
+    <p>Email: olivia.yip7@gmail.com<br>Instagram: @oliviayiip<br>LinkedIn: Olivia Yip</p>
+    &copy; 2024 Olivia Yip. All Rights Reserved.
+  </footer>
+</body>
+</html>
+
